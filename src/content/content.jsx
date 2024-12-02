@@ -81,7 +81,7 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "gabrieledias.adv", // Sem o @
-  facebookProfile: "A Definir",
+  facebookProfile: "advogadadias",
   linkeDinProfile: "A Definir",
   whatsappDefaultMessage:
     "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
@@ -107,12 +107,12 @@ const content = {
       miniTag: "ADVOGADA CÍVEL EM MANAUS - AM",
       title: (
         <h1 className="mb-[16px]">
-          Ao seu lado
-          <span className="text-primary"> independente</span> da situação
+          Soluções jurídicas que
+          <span className="text-primary"> transformam </span> sua vida
         </h1>
       ),
       subtitle:
-        "Defendendo seus direitos com comprometimento, garantindo que a justiça seja sempre feita.",
+        "Com empatia e experiência, resolvo questões cíveis com agilidade e resultados efetivos.",
       heroImg: heroImg,
       ctaButtonText: "Entre em contato",
       obsHero: {
@@ -202,8 +202,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito do Consumidor",
-        subtitle: "Defesa contra práticas abusivas e fraudes.",
+        title: "Direito Cível e Penal",
+        subtitle: "Representação jurídica em conflitos civis e defesa penal.",
         description: (
           <div>
             A Definir <br />
@@ -223,10 +223,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-tag"
+            class="lucide lucide-scale"
           >
-            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
-            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -254,12 +257,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users"
+            class="lucide lucide-network"
           >
-            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <circle cx="9" cy="7" r="4" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            <rect x="16" y="16" width="6" height="6" rx="1" />
+            <rect x="2" y="16" width="6" height="6" rx="1" />
+            <rect x="9" y="2" width="6" height="6" rx="1" />
+            <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+            <path d="M12 12V8" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -295,6 +299,72 @@ const content = {
             <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
             <path d="M22 13a18.15 18.15 0 0 1-20 0" />
             <rect width="20" height="14" x="2" y="6" rx="2" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "Direito do Consumidor",
+        subtitle: "Defesa contra práticas abusivas e fraudes.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tag"
+          >
+            <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z" />
+            <circle cx="7.5" cy="7.5" r=".5" fill="currentColor" />
+          </svg>
+        ),
+        buttonLabelModal: "A Definir",
+        buttonLabel: "A Definir",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Direito para Autistas",
+        subtitle:
+          "Garantia de direitos e inclusão com sensibilidade e expertise.",
+        description: (
+          <div>
+            A Definir <br />
+            <br />
+            A Definir <br />
+            A Definir <br />
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-puzzle"
+          >
+            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
           </svg>
         ),
         buttonLabelModal: "A Definir",
@@ -780,6 +850,7 @@ const content = {
     },
     links: {
       instagram: `https://www.instagram.com/${infos.instagramProfile}/`,
+      facebook: `https://www.facebook.com/advogadadias/`,
       linkedin:
         "https://www.linkedin.com/in/gabriele-dias-de-souza-120b04300/?originalSubdomain=br",
       ctaWhatsapp: `https://wa.me/+55${infos.phone.ddd}${infos.phone.firstPart}${infos.phone.secondPart}?text=${infos.whatsappDefaultMessage}`,
