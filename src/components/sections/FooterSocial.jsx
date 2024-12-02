@@ -157,7 +157,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                   <div className="flex gap-[10px] items-center">
                     {/* Instagram icon */}
 
-                    {/* <a
+                    <a
                       href={content.texts.links.instagram}
                       target="_blank"
                       aria-label="Link para o Instagram"
@@ -190,12 +190,34 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a> */}
+                    </a>
 
                     {/* Instagram icon */}
 
-                    {/* <a
-                      href={content.texts.infos.facebookProfile}
+                    <a href={content.texts.links.linkedin} target="_blank">
+                      <IconButton
+                        icon={
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            fill=""
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-linkedin"
+                          >
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                          </svg>
+                        }
+                      />
+                    </a>
+                    <a
+                      href={content.texts.links.facebook}
                       target="_blank"
                       aria-label="Link para o Facebook"
                     >
@@ -219,31 +241,6 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                         }
                       />
                     </a>
-                    <a
-                      href={content.texts.infos.linkedInProfile}
-                      target="_blank"
-                    >
-                      <IconButton
-                        icon={
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill=""
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-linkedin"
-                          >
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect width="4" height="12" x="2" y="9" />
-                            <circle cx="4" cy="4" r="2" />
-                          </svg>
-                        }
-                      />
-                    </a> */}
                   </div>
                 </div>
               </MotionDivDownToUp>

@@ -49,92 +49,6 @@ export default function AboutInstagram() {
             </Paragraphs>
           </MotionDivDownToUp>
 
-          {/* Início Botões das redes sociais */}
-
-          {/* <div className=" flex flex-col gap-[16px] w-[100%] tablet1:w-[60%] desktop1:w-[80%] desktop2:w-[60%]">
-            <MotionDivDownToUp>
-              <Button
-                label="Me siga no Instagram"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.instagramProfile}
-                textclassName="text-paragraph3"
-                size="small"
-                icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-instagram"
-                  >
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <Button
-                label="Me siga no Facebook"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.facebookProfile}
-                textclassName="text-paragraph3"
-                size="small"
-                icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-facebook"
-                  >
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-            <MotionDivDownToUp>
-              <Button
-                label="Me siga no Linkedin"
-                className="w-[75%]"
-                buttonLink={content.texts.infos.linkedInProfile}
-                textclassName="text-paragraph3"
-                size="small"
-                icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-linkedin"
-                  >
-                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                    <rect width="4" height="12" x="2" y="9" />
-                    <circle cx="4" cy="4" r="2" />
-                  </svg>
-                }
-              />
-            </MotionDivDownToUp>
-
-
-          {/* Fim Botões das redes sociais */}
-
           {/* Início Botão de saiba mais abrindo modal */}
 
           <MotionDivDownToUp>
@@ -182,6 +96,29 @@ export default function AboutInstagram() {
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect width="4" height="12" x="2" y="9" />
                   <circle cx="4" cy="4" r="2" />
+                </svg>
+              }
+            />
+          </MotionDivDownToUp>
+
+          <MotionDivDownToUp className="mt-[18px]">
+            <Button
+              label="Siga-me no Facebook"
+              buttonLink={content.texts.links.facebook}
+              icon={
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-facebook"
+                >
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               }
             />
