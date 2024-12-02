@@ -67,14 +67,16 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>A Definir</p>
+      <p>Rua Jaciara, nº 43</p>
+      <p>Novo Aleixo, Manaus - AM</p>
+      <p>CEP: 69.098-052</p>
     </div>
   ),
   expediente: (
     <div>
       <p>Horário de expediente:</p>
       <p>Segunda a Sexta-feira</p>
-      <p>A Definir</p>
+      <p>Das 8:30 às 17h</p>
     </div>
   ),
   obs: <span className="italic">A Definir</span>,
@@ -102,7 +104,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA CÍVEL EM AMAZONAS",
+      miniTag: "ADVOGADA CÍVEL EM MANAUS - AM",
       title: (
         <h1 className="mb-[16px]">
           Ao seu lado
