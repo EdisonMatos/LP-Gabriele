@@ -29,7 +29,7 @@ export default function Index() {
       <Cta />
       <Steps />
       <Faq />
-      <FooterSocial obs={false} addres={false} />
+      <FooterSocial obs={false} addres={true} />
       <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
