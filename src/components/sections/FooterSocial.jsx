@@ -13,6 +13,7 @@ import { CalendarCheck2 } from "lucide-react";
 import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { classNames } from "primereact/utils";
+import LGPD from "./LGPD";
 
 const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
@@ -323,7 +324,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
           </div>
 
           <div className="hidden w-[88%] max-w-[1110px] bg-secondary"></div>
-
+          <LGPD />
           <div className="text-center w-full phone2:w-[90%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-[27px]">
             <p className="w-full opacity-75">
               {content.texts.footer.copyrightLine}
