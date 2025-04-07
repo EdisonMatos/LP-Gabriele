@@ -1,6 +1,10 @@
 import logo from "../assets/imgs/logo/logo.png";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import heroImgPhone from "../assets/imgs/hero/heroImgPhone.png";
+import heroImgDesktop from "../assets/imgs/hero/heroDesktop.jpg";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
+import backgroundMobile from "../assets/imgs/hero/backgroundMobile.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -113,7 +117,11 @@ const content = {
       ),
       subtitle:
         "Com empatia e experiência, resolvo questões cíveis com agilidade e resultados efetivos.",
-      heroImg: heroImg,
+      heroImgPhone: heroImgPhone, // img da pessoa mobile
+      heroDesktop: heroImgDesktop, //bg com foto da pessoa
+      heroImg: bgHeroImg, //fundo da Hero
+      heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
+      backgroundPerson: backgroundMobile,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (

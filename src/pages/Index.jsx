@@ -1,5 +1,5 @@
 import Navbar from "../components/sections/NavbarSocial";
-import Hero from "../components/sections/Hero";
+import HeroInfluencer from "../components/sections/HeroInfluencer";
 import Features from "../components/sections/Features";
 import About from "../components/sections/About";
 import AboutInstagram from "../components/sections/AboutInstagram";
@@ -23,7 +23,7 @@ export default function Index() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <HeroInfluencer />
       <FeaturesResumed />
       <About modal={true} />
       <AboutInstagram />
