@@ -1,18 +1,18 @@
-import logo from "../assets/imgs/logo/logo.png";
+import logo from "../assets/imgs/logo/logo.webp";
 import heroImg from "../assets/imgs/hero/lawHero.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
-import heroImgPhone from "../assets/imgs/hero/heroImgPhone.png";
-import heroImgDesktop from "../assets/imgs/hero/heroDesktop.jpg";
+import heroImgPhone from "../assets/imgs/hero/heroImgPhone.webp";
+import heroImgDesktop from "../assets/imgs/hero/heroDesktop.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
-import backgroundMobile from "../assets/imgs/hero/backgroundMobile.jpg";
+import backgroundMobile from "../assets/imgs/hero/backgroundMobile.webp";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
