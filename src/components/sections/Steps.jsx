@@ -1,24 +1,24 @@
-import Paragraphs from "../sectionElements/Paragraphs";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionTitles from "../sectionElements/SectionTitles";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import React, { useState } from "react";
-import { Dialog } from "primereact/dialog";
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import content from "../../content/content";
-import Button from "../interactives/Button";
-import SectionHeader from "../sectionElements/SectionHeader";
-import imgPoints from "../../assets/imgs/about/points.png";
-import HowItWorksCard from "../cards/HowItWorksCard";
-import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
+import Paragraphs from '../sectionElements/Paragraphs'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionTitles from '../sectionElements/SectionTitles'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import React, { useState } from 'react'
+import { Dialog } from 'primereact/dialog'
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+import content from '../../content/content'
+import Button from '../interactives/Button'
+import SectionHeader from '../sectionElements/SectionHeader'
+import imgPoints from '../../assets/imgs/about/points.png'
+import HowItWorksCard from '../cards/HowItWorksCard'
+import SectionShapeDiv from '../sectionElements/SectionShapeDiv'
 
 export default function Steps() {
-  const [visible, setVisible] = useState(false);
-  const [modalContent, setModalContent] = useState("");
-  const [modalTitle, setModalTitle] = useState("");
+  const [visible, setVisible] = useState(false)
+  const [modalContent, setModalContent] = useState('')
+  const [modalTitle, setModalTitle] = useState('')
 
   return (
     <SectionArea className="bg-bgSectionDark" paddingtop={true}>
@@ -29,7 +29,7 @@ export default function Steps() {
             style={{
               backgroundImage: `url(${content.texts.steps.img})`,
             }}
-            className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-center bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
+            className="shadow-custom-opacity shadow-darker/25 relative desktop1:bg-top bg-no-repeat bg-cover h-[350px] w-[90%] tablet1:w-full tablet1:h-[800px] desktop1:h-[467px] rounded-xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
@@ -108,5 +108,5 @@ export default function Steps() {
 
       {/* Final de divisão com onda */}
     </SectionArea>
-  );
+  )
 }
